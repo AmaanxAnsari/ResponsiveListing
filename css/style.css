@@ -7,6 +7,278 @@ a {
     text-decoration: none;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+header {
+    height: 55px;
+    background-color: #252027;
+}
+
+#brand {
+    color: #e9ad2b;
+    font-size: 25px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 30px;
+
+
+}
+
+#mainlogo {
+    height: 35px;
+    width: 30px;
+}
+
+.socialimg {
+    height: 35px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+
+#heading {
+
+    text-align: center;
+}
+
+#heading>h1 {
+    color: #e9ad2b;
+    font-size: 36px;
+    margin: 2% 0% 0% 0%;
+}
+
+#heading>h3 {
+    color: #d6562b;
+    font-size: 22px;
+    margin: 0% 0% 0% 0%;
+}
+
+#container {
+    border: #d6562b solid 2px;
+    width: 90%;
+    height: 600px;
+    margin: 1% 0% 5% 5%;
+}
+
+#filter {
+    border-right: #d6562b dashed 2px;
+    width: 20%;
+    height: 91%;
+    margin: 5.5% 0% 2.5% 2%;
+    padding-right: 25px;
+    float: left;
+    display: block;
+}
+
+#filter>h1 {
+    font-size: 25px;
+    float: left;
+    color: #d6562b;
+    text-decoration: underline;
+    margin: 0% 0% 7% 0%;
+    opacity: 80%;
+}
+
+#cusinetype {
+    position: relative;
+}
+
+#cusinetype>span {
+    border: #e9ad2b solid 1px;
+    border-radius: 20px;
+    font-size: 8px;
+    font-weight: bold;
+    color: #e9ad2b;
+    float: left;
+    padding: 5px 7px 5px 7px;
+    margin: 1% 1% 1% 1%;
+}
+
+#cusinetype>h3 {
+    color: gray;
+    opacity: 80%;
+    font-size: 20px;
+    margin: 5% 0% 2% 0%;
+}
+
+#sortby {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#sortby>h3 {
+    color: gray;
+    opacity: 80%;
+    font-size: 20px;
+    margin: 5% 0% 2% 0%;
+}
+
+#sortby>span {
+    border: #e9ad2b solid 1px;
+    border-radius: 20px;
+    display: block;
+    font-size: 9px;
+    font-weight: bold;
+    color: #e9ad2b;
+    padding: 3px 0px 3px 0px;
+    margin: 3% 1% 1% 1%;
+    text-align: center;
+
+}
+
+#popular>h3 {
+    color: gray;
+    opacity: 80%;
+    font-size: 20px;
+    margin: 5% 0% 2% 0%;
+}
+
+#popular>span {
+    border: #e9ad2b solid 1px;
+    border-radius: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #e9ad2b;
+    float: left;
+    padding: 4px 5.5px 4px 5.5px;
+    margin: 1% 1% 1% 1%;
+}
+
+
+
+#ktab {
+    width: 75%;
+    height: 85%;
+    margin: 2% 0% 2% 25%;
+}
+
+.kcard {
+    width: 30%;
+    height: 50%;
+    float: left;
+    margin: 3.5% 1.5% 0% 1.5%;
+}
+
+.kimg {
+    float: left;
+    width: 95%;
+    min-height: 110px;
+    margin: 5px 2.5% 2% 2.5%;
+}
+
+.khead>h3 {
+    color: #d6562b;
+    margin: 62% 0% 0% 3%;
+    font-size: 20px;
+}
+
+
+.ksubhead>h5 {
+    color: #8b8986;
+    margin: 1% 0% 0% 3%;
+    opacity: 80%;
+    font-size: 12px;
+
+}
+
+#kbody>span {
+    text-align: center;
+}
+
+
+.krate {
+    border-radius: 6px;
+    color: white;
+    margin: 5% 0% 0% 1%;
+    float: left;
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+    font-size: 13px;
+}
+
+.star {
+    font-size: 10.5px;
+
+}
+
+.klocation {
+
+    color: #e9ad2b;
+    margin: 5% 0% 0% 2%;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.kcost {
+    color: #e9ad2b;
+    margin: 5% 0% 0% 2%;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.kcoupon {
+
+    display: block;
+    font-size: 14.5px;
+    color: #d6562b;
+    margin: 19% 0% 0% 0%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.kbutton {
+    border: #e9ad2b solid 2px;
+    border-radius: 20px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e9ad2b;
+    padding: 2px 0px 2px 0px;
+    margin: 5% 1% 0% 1%;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #252027;
+    color: #e9ad2b;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+footer>h3>span {
+    color: crimson;
+}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    
 header {
     height: 60px;
     background-color: #252027;
@@ -34,113 +306,22 @@ header {
     margin-right: 1%;
 }
 
-.search {
-    height: 500px;
-    background-image: url("../img/Food/banner.png");
-    background-repeat: no-repeat;
-    background-size: 100% 500px;
-}
 
-#banner {
-    height: 400px;
-    width: 100%;
-}
+#heading {
 
-#logo {
-    width: 270px;
-    height: 270px;
-    margin-top: 70px;
-    margin-left: 85px;
-}
-
-#dropdown {
-    width: 500px;
-    height: 40px;
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 20px;
-
-}
-
-#place {
-    width: 148px;
-    height: 40px;
     text-align: center;
-    font-size: 14px;
-    background-color: #252027;
-    border: #e9ad2b solid 1px;
-    color: #d6562b;
 }
 
-#kitchen {
-    width: 180px;
-    height: 40px;
-    text-align: center;
-    font-size: 14px;
-    background-color: #252027;
-    border: #e9ad2b solid 1px;
-    color: #d6562b;
-}
-
-#quicksearch {
-
-    width: 80%;
-    height: 650px;
-    margin: 2.5% 2% 1% 10%;
-
-}
-
-
-#quickhead {
-    display: block;
-    font-size: 60px;
-    font-weight: bold;
+#heading>h1 {
     color: #e9ad2b;
-    margin-left: 3%;
-    text-align: center;
+    font-size: 50px;
+    margin: 2% 0% 0% 0%;
 }
 
-
-#quicksubhead {
-    display: block;
-    font-size: 40px;
+#heading>h3 {
     color: #d6562b;
-    margin-left: 3%;
-    text-align: center;
-
-}
-
-#quicktab {
-    margin-left: 1%;
-}
-
-.card {
-    border: #d6562b solid 2px;
-    width: 29%;
-    height: 170px;
-    float: left;
-    margin: 3% 2% 5% 2%;
-
-}
-
-.cardimg {
-    width: 185px;
-    height: 170px;
-}
-#heading{
-
-    text-align: center;
-}
-
-#heading>h1{
-  color: #e9ad2b;
-  font-size: 50px;
-  margin: 2% 0% 0% 0%;
-}
-#heading>h3{
-  color: #d6562b;
-  font-size: 28px;
-  margin: 0% 0% 0% 0%;
+    font-size: 28px;
+    margin: 0% 0% 0% 0%;
 }
 
 #container {
@@ -150,7 +331,7 @@ header {
     margin: 1% 0% 5% 5%;
 }
 
-#filter{
+#filter {
     border-right: #d6562b dashed 2px;
     width: 20%;
     height: 91%;
@@ -164,7 +345,7 @@ header {
     font-size: 35px;
     float: left;
     color: #d6562b;
-    text-decoration:underline;
+    text-decoration: underline;
     margin: 0% 0% 7% 0%;
     opacity: 80%;
 }
@@ -226,21 +407,13 @@ header {
 #popular>span {
     border: #e9ad2b solid 1px;
     border-radius: 20px;
-    font-size: 15px ;
+    font-size: 15px;
     font-weight: bold;
     color: #e9ad2b;
     float: left;
     padding: 5px 7px 5px 7px;
     margin: 1% 1% 1% 1%;
 }
-
-/* .seprator{
-    border-left: #8b8986 dashed 2px;
-    height: 700px;
-    margin-left: 330px;
-    margin-top: 50px;
-} */
-
 
 #ktab {
     width: 75%;
@@ -259,43 +432,44 @@ header {
     float: left;
     width: 95%;
     min-height: 150px;
-    margin:5px 2.5% 2% 2.5% ;
+    margin: 5px 2.5% 2% 2.5%;
 }
 
-.khead>h3{
+.khead>h3 {
     color: #d6562b;
     margin: 2% 0% 0% 3%;
     font-size: 23px;
 }
 
 
-.ksubhead>h5{
+.ksubhead>h5 {
     color: #8b8986;
     margin: 1% 0% 0% 3%;
     opacity: 80%;
-    
+
 }
-#kbody>span{
+
+#kbody>span {
     text-align: center;
 }
 
 
-.krate{
-  border-radius: 6px;
-  color: white;
-  margin: 5% 0% 0% 1%;
-  float: left;
-  text-align: center;
-  padding: 0px 2px 0px 2px;
-  font-size: 15px;
+.krate {
+    border-radius: 6px;
+    color: white;
+    margin: 5% 0% 0% 1%;
+    float: left;
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+    font-size: 15px;
 }
 
-.star{
+.star {
     font-size: 12.5px;
-    
+
 }
 
-.klocation{
+.klocation {
 
     color: #e9ad2b;
     margin: 5% 0% 0% 2%;
@@ -303,14 +477,14 @@ header {
     font-weight: bold;
 }
 
-.kcost{
-color: #e9ad2b;
+.kcost {
+    color: #e9ad2b;
     margin: 5% 0% 0% 2%;
     float: left;
     font-weight: bold;
 }
 
-.kcoupon{
+.kcoupon {
 
     display: block;
     font-size: 14.5px;
@@ -320,7 +494,7 @@ color: #e9ad2b;
     font-weight: bold;
 }
 
-.kbutton{
+.kbutton {
     border: #e9ad2b solid 2px;
     border-radius: 20px;
     display: block;
@@ -333,7 +507,7 @@ color: #e9ad2b;
     font-weight: bold;
 }
 
-footer{
+footer {
     width: 100%;
     height: 50px;
     background-color: #252027;
@@ -342,6 +516,9 @@ footer{
     padding-top: 3px;
 
 }
-footer>h3>span{
+
+footer>h3>span {
     color: crimson;
+}
+
 }
