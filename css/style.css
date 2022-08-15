@@ -23,7 +23,7 @@ a {
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
     
 header {
     height: 55px;
@@ -276,7 +276,7 @@ footer>h3>span {
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
 
     
 header {
@@ -327,7 +327,7 @@ header {
 #container {
     border: #d6562b solid 2px;
     width: 90%;
-    height: 800px;
+    height: 740px;
     margin: 1% 0% 5% 5%;
 }
 
@@ -357,7 +357,7 @@ header {
 #cusinetype>span {
     border: #e9ad2b solid 1px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: #e9ad2b;
     float: left;
@@ -373,7 +373,7 @@ header {
 }
 
 #sortby {
-    margin-top: 140px;
+    margin-top: 130px;
     margin-bottom: 20px;
 }
 
@@ -407,7 +407,7 @@ header {
 #popular>span {
     border: #e9ad2b solid 1px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     color: #e9ad2b;
     float: left;
@@ -418,12 +418,12 @@ header {
 #ktab {
     width: 75%;
     height: 85%;
-    margin: 3% 0% 2.5% 25%;
+    margin: 1% 0% 2.5% 25%;
 }
 
 .kcard {
     width: 25%;
-    height: 44%;
+    height: 50%;
     float: left;
     margin: 3.5% 3.6% 0% 3.6%;
 }
@@ -438,7 +438,7 @@ header {
 .khead>h3 {
     color: #d6562b;
     margin: 2% 0% 0% 3%;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 
@@ -446,6 +446,7 @@ header {
     color: #8b8986;
     margin: 1% 0% 0% 3%;
     opacity: 80%;
+    font-size: 14px;
 
 }
 
@@ -475,6 +476,7 @@ header {
     margin: 5% 0% 0% 2%;
     float: left;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .kcost {
@@ -482,6 +484,7 @@ header {
     margin: 5% 0% 0% 2%;
     float: left;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .kcoupon {
