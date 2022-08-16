@@ -255,7 +255,7 @@ footer>h3>span {
 }
 
 
-@media only screen and (min-width: 400px) and (max-width: 599px) {
+@media only screen and (min-width: 0px) and (max-width: 599px) {
 
       header {
     height: 40px;
